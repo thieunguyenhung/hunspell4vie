@@ -2,7 +2,6 @@
 Example Java source code show how to use Hunspell, specifically for Vietnamese.
 
 # Download
-
   - Clone with github
   - Download jar file (required [jna.jar](http://repo1.maven.org/maven2/net/java/dev/jna/jna/4.3.0/jna-4.3.0.jar) atleast 4.3.0)
 
@@ -19,5 +18,5 @@ This method will check word by word to detect error if this word does not exist 
 
 License
 ----
-This library using [Hunspell](https://github.com/hunspell/hunspell) and [JNA](https://github.com/java-native-access/jna) library.
-Apache License version 2.0
+  - This library using [Hunspell](https://github.com/hunspell/hunspell) and [JNA](https://github.com/java-native-access/jna) library.
+  - Apache License version 2.0
