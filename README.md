@@ -2,8 +2,8 @@
 Example Java source code show how to use Hunspell, specifically for Vietnamese.
 
 # Download
-  - Clone with github
-  - Download jar file (required [jna.jar](http://repo1.maven.org/maven2/net/java/dev/jna/jna/4.3.0/jna-4.3.0.jar) atleast 4.3.0)
+  - Clone with github and import to [Eclipse IDE](https://eclipse.org/).
+  - Download compiled [hunspell4Vie.jar](https://github.com/thieunguyenhung/hunspell4vie/raw/master/Hunspell4Vie/dist/hunspell4Vie.jar) file (required [jna.jar](http://repo1.maven.org/maven2/net/java/dev/jna/jna/4.3.0/jna-4.3.0.jar) atleast 4.3.0)
 
 # Usesage
 This library included [hunspell-native-library](https://github.com/languagetool-org/languagetool/tree/master/hunspell-native-libs/libs/native-lib) and Vietnamese dictionary, you can also use your own native library or [other language dictionaries](https://github.com/titoBouzout/Dictionaries).
