@@ -9,7 +9,7 @@ Example Java source code show how to use Hunspell, specifically for Vietnamese.
 <a name="download"/>
 # Download
 - Clone with github and import to [Eclipse IDE](https://eclipse.org/).
-- Download compiled [hunspell4Vie.jar](https://github.com/thieunguyenhung/hunspell4vie/raw/master/Hunspell4Vie/dist/hunspell4Vie.jar) file (required [jna.jar](http://repo1.maven.org/maven2/net/java/dev/jna/jna/4.3.0/jna-4.3.0.jar) at least 4.3.0)
+- Or download compiled [hunspell4Vie.jar](https://github.com/thieunguyenhung/hunspell4vie/raw/master/Hunspell4Vie/dist/hunspell4Vie.jar) file and import to your java project (required [jna.jar](http://repo1.maven.org/maven2/net/java/dev/jna/jna/4.3.0/jna-4.3.0.jar) at least 4.3.0)
 
 <a name="usage"/>
 # Usage
