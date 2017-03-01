@@ -8,7 +8,7 @@ Example Java source code show how to use Hunspell, specifically for Vietnamese.
 # Usesage
 This library included [hunspell-native-library](https://github.com/languagetool-org/languagetool/tree/master/hunspell-native-libs/libs/native-lib) and Vietnamese dictionary, you can also use your own native library or [other language dictionaries](https://github.com/titoBouzout/Dictionaries).
 
-## Check misspelled word
+### Check misspelled word
 Use checkSpell method from SpellChecker class, rmember to choose correct OS you are using.
 ```java
 SpellChecker spellChecker= new SpellChecker(OSArchitecture.MACOS_64);
@@ -18,5 +18,5 @@ This method will check word by word to detect error if this word does not exist 
 
 License
 ----
-  - This library using [Hunspell](https://github.com/hunspell/hunspell) and [JNA](https://github.com/java-native-access/jna) library.
-  - Apache License version 2.0
+  - This library using [Hunspell](https://github.com/hunspell/hunspell) and [JNA](https://github.com/java-native-access/jna) libraries.
+  - Apache License version 2.0.
