@@ -21,7 +21,7 @@ Use checkSpell method from SpellChecker class, rmember to choose correct OS you 
 SpellChecker spellChecker= new SpellChecker(OSArchitecture.MACOS_64);
 System.out.println(spellChecker.checkSpell("công việ", false));
 ```
-This method will check word by word to detect error if this word does not exist in dictionary, then get suggestion from hunspell and replace misspelled word.
+This method will check word by word to detect error, if this word does not exist in dictionary. Then gets suggestion word and replace misspelled word.
 
 Second parameter specific which suggestion algorithm you want to use
 
