@@ -6,12 +6,10 @@ Example Java source code show how to use Hunspell, specifically for Vietnamese.
 - [Dependency](#dependency)
 - [License](#license)
 
-<a name="download"/>
 # Download
 - Clone with github and import to [Eclipse IDE](https://eclipse.org/).
 - Or download compiled [hunspell4Vie.jar](https://github.com/thieunguyenhung/hunspell4vie/raw/master/Hunspell4Vie/dist/hunspell4Vie.jar) file and import to your java project (required [jna.jar](http://repo1.maven.org/maven2/net/java/dev/jna/jna/4.3.0/jna-4.3.0.jar) at least 4.3.0)
 
-<a name="usage"/>
 # Usage
 This library included [hunspell-native-library](https://github.com/languagetool-org/languagetool/tree/master/hunspell-native-libs/libs/native-lib) and Vietnamese dictionary, you can also use your own native library or [other language dictionaries](https://github.com/titoBouzout/Dictionaries).
 
@@ -30,12 +28,9 @@ Second parameter specific which suggestion algorithm you want to use
 
 We are working on making our suggestion algorithm more correct.
 
-<a name="dependency"/>
 # Dependency
 - JNA (to run Hunspell)
 
-
-<a name="license"/>
 # License
 
   - This library using [Hunspell](https://github.com/hunspell/hunspell) and [JNA](https://github.com/java-native-access/jna) libraries.
