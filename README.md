@@ -14,7 +14,7 @@ Example Java source code show how to use Hunspell, specifically for Vietnamese.
 This library included [hunspell-native-library](https://github.com/languagetool-org/languagetool/tree/master/hunspell-native-libs/libs/native-lib) and Vietnamese dictionary, you can also use your own native library or [other language dictionaries](https://github.com/titoBouzout/Dictionaries).
 
 ### Check misspelled word
-Use checkSpell method from SpellChecker class, rmember to choose correct OS you are using.
+Use checkSpell method from SpellChecker class, remember to choose correct OS you are using.
 ```java
 SpellChecker spellChecker= new SpellChecker(OSArchitecture.MACOS_64);
 System.out.println(spellChecker.checkSpell("công việ", false));
